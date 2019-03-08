@@ -26,6 +26,6 @@ spec:
       containers:
       - name: server
         image: vnoronha/grpc-web-istio-demo:server
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9000
